@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(omc ask:*)",
+      "Bash(npm list:*)",
+      "Bash(codex:*)",
+      "Bash(omc skill:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
