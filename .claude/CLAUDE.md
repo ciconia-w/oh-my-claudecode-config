@@ -31,3 +31,8 @@ Skill management:
 - All skill creation MUST use the `skill-creator` skill.
 - Never create skills manually without invoking `/skill-creator`.
 - All skill installations MUST go through `skill-vetter` for validation before use.
+
+Git and GitHub operations:
+- ALL GitHub operations MUST use `gh` CLI, never use git remote URLs directly.
+- Examples: `gh repo create`, `gh pr create`, `gh issue list`, `gh repo clone`.
+- For authentication, use `gh auth login` with token or web flow.
